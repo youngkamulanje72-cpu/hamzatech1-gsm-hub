@@ -1,4 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #050505;
+    color: white;
+}
+
+header {
+    background: linear-gradient(90deg, #001f3f, #000);
+    padding: 25px;
+    text-align: center;
+    border-bottom: 3px solid gold;
+}
+
+h1, h2 {
+    color: gold;
+}
+
+section {
+    padding: 25px;
+    text-align: center;
+}
+
+.card {
+    background: #111;
+    border: 1px solid #0066ff;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 15px;
+    box-shadow: 0 0 15px #0066ff;
+}
+
+button, .btn {
+    background: gold;
+    color: black;
+    padding: 12px 25px;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    box-shadow: 0 0 15px gold;
+}
+
+button:hover, .btn:hover {
+    background: #0066ff;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 15px;
+    border: 2px solid gold;
+}
+
+footer {
+    background: #000;
+    text-align: center;
+    padding: 20px;
+    color: gold;
+}
+
+/* Floating WhatsApp Button */
+
 .whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 25px;
+    box-shadow: 0 0 20px #25D366;
+}.whatsapp {
     display: inline-block;
     background: #25D366;
     color: white;
