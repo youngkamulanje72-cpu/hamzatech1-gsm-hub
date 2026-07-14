@@ -1,66 +1,24 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background: #050505;
+.whatsapp {
+    display: inline-block;
+    background: #25D366;
     color: white;
-}
-
-header {
-    background: #111827;
-    text-align: center;
-    padding: 40px 20px;
-    border-bottom: 3px solid #f5c518;
-}
-
-header h1 {
-    color: #f5c518;
-    font-size: 35px;
-}
-
-nav {
-    text-align: center;
-    background: #0b5ed7;
-    padding: 15px;
-}
-
-nav a {
-    color: white;
+    padding: 12px 25px;
+    border-radius: 30px;
     text-decoration: none;
-    margin: 15px;
     font-weight: bold;
 }
 
-.hero {
-    text-align: center;
-    padding: 40px 20px;
+.telegram {
+    display: inline-block;
+    background: #0088cc;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-.hero h2 {
-    color: #0b5ed7;
-}
-
-section {
-    margin: 20px;
-    padding: 25px;
-    background: #111827;
-    border-radius: 15px;
-    border: 1px solid #f5c518;
-}
-
-h2 {
-    color: #f5c518;
-}
-
-.card {
-    background: #0b5ed7;
-    margin: 15px 0;
-    padding: 20px;
-    border-radius: 12px;
-}
-
-footer {
-    background: #111827;
-    text-align: center;
-    padding: 20px;
-    border-top: 3px solid #f5c518;
+.whatsapp:hover,
+.telegram:hover {
+    opacity: 0.8;
 }
