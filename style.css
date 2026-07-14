@@ -1,4 +1,4 @@
-body {
+5body {
     font-family: Arial, sans-serif;
     margin: 0;
     background: #050505;
@@ -119,4 +119,30 @@ footer {
 
 .hero p {
     font-size: 18px;
+}
+/* Mobile Friendly */
+@media (max-width: 600px) {
+
+    body {
+        font-size: 16px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    .card {
+        width: 90%;
+        margin: 15px auto;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    button, a {
+        font-size: 18px;
+        padding: 12px;
+    }
 }
