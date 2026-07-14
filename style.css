@@ -1,42 +1,62 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background: #f4f4f4;
-    color: #222;
-}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HAMZATECH1 GSM HUB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-header {
-    background: #111827;
-    color: white;
-    text-align: center;
-    padding: 40px 20px;
-}
+<body>
 
-header h1 {
-    font-size: 32px;
-    margin-bottom: 10px;
-}
+<header>
+    <h1>🔧 HAMZATECH1 GSM HUB</h1>
+    <p>Professional Phone Repair & GSM Solutions</p>
+</header>
 
-section {
-    background: white;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 2px 8px #ccc;
-}
+<nav>
+    <a href="#services">Services</a>
+    <a href="#academy">Academy</a>
+    <a href="#contact">Contact</a>
+</nav>
 
-h2 {
-    color: #0b5ed7;
-}
+<section class="hero">
+    <h2>Mobile Repair Experts</h2>
+    <p>Fix • Unlock • Learn • Grow</p>
+    <p>📱 Broken phones repaired with professional tools 🪛</p>
+</section>
 
-p {
-    font-size: 16px;
-}
+<section id="services">
+    <h2>🔧 Our Services</h2>
 
-footer {
-    background: #111827;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    margin-top: 20px;
-}
+    <div class="card">
+        📱 Phone Repair<br>
+        Screen replacement, software repair & troubleshooting
+    </div>
+
+    <div class="card">
+        🌍 GSM Services<br>
+        Professional mobile solutions and support
+    </div>
+
+    <div class="card">
+        🛠️ Tool Rental<br>
+        Access GSM repair equipment
+    </div>
+
+</section>
+
+<section id="academy">
+    <h2>🎓 HAMZATECH1 Academy</h2>
+    <p>Learn phone repair skills and become a GSM technician.</p>
+</section>
+
+<section id="contact">
+    <h2>📞 Contact Us</h2>
+    <p>HAMZATECH1 GSM HUB</p>
+</section>
+
+<footer>
+    <p>© 2026 HAMZATECH1 GSM HUB</p>
+</footer>
+
+</body>
+</html>
