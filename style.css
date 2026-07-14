@@ -1,62 +1,66 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>HAMZATECH1 GSM HUB</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #050505;
+    color: white;
+}
 
-<body>
+header {
+    background: #111827;
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 3px solid #f5c518;
+}
 
-<header>
-    <h1>🔧 HAMZATECH1 GSM HUB</h1>
-    <p>Professional Phone Repair & GSM Solutions</p>
-</header>
+header h1 {
+    color: #f5c518;
+    font-size: 35px;
+}
 
-<nav>
-    <a href="#services">Services</a>
-    <a href="#academy">Academy</a>
-    <a href="#contact">Contact</a>
-</nav>
+nav {
+    text-align: center;
+    background: #0b5ed7;
+    padding: 15px;
+}
 
-<section class="hero">
-    <h2>Mobile Repair Experts</h2>
-    <p>Fix • Unlock • Learn • Grow</p>
-    <p>📱 Broken phones repaired with professional tools 🪛</p>
-</section>
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
 
-<section id="services">
-    <h2>🔧 Our Services</h2>
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+}
 
-    <div class="card">
-        📱 Phone Repair<br>
-        Screen replacement, software repair & troubleshooting
-    </div>
+.hero h2 {
+    color: #0b5ed7;
+}
 
-    <div class="card">
-        🌍 GSM Services<br>
-        Professional mobile solutions and support
-    </div>
+section {
+    margin: 20px;
+    padding: 25px;
+    background: #111827;
+    border-radius: 15px;
+    border: 1px solid #f5c518;
+}
 
-    <div class="card">
-        🛠️ Tool Rental<br>
-        Access GSM repair equipment
-    </div>
+h2 {
+    color: #f5c518;
+}
 
-</section>
+.card {
+    background: #0b5ed7;
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 12px;
+}
 
-<section id="academy">
-    <h2>🎓 HAMZATECH1 Academy</h2>
-    <p>Learn phone repair skills and become a GSM technician.</p>
-</section>
-
-<section id="contact">
-    <h2>📞 Contact Us</h2>
-    <p>HAMZATECH1 GSM HUB</p>
-</section>
-
-<footer>
-    <p>© 2026 HAMZATECH1 GSM HUB</p>
-</footer>
-
-</body>
-</html>
+footer {
+    background: #111827;
+    text-align: center;
+    padding: 20px;
+    border-top: 3px solid #f5c518;
+}
